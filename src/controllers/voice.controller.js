@@ -28,7 +28,7 @@ export const createCall = async (req, res, next) => {
     return res.status(201).json({
       success: true,
       message: 'Call created successfully',
-      data: call
+      // data: call
     });
   } catch (error) {
     next(error);
